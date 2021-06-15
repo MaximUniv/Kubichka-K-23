@@ -12,10 +12,10 @@ int main() {
 	char Mass[100];
 	strcpy_s(Mass, word.c_str());
 	for (i = 0; i <= word.length() - 1; i++) {
-		if (Mass[i] == 'e') {
+		if (Mass[i] == 'o') {
 			counter1 += 1;
 		}
-		if ((Mass[i] == 'e') and (Mass[i + 1] != 'r')) {
+		if (((Mass[i] == 'o') and (Mass[i + 1] != 'o') ) {
 			counter2 += 1;
 		}
 		//cout << i;
