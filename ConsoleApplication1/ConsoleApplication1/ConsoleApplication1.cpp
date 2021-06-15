@@ -25,12 +25,17 @@ int Func(string wordd){
 }
 
 void Test1() {
-	assert(Func("boom") == 1, 0);
-	cout << "test done" << endl;
+	assert(Func("boom") == 1, 2);
+	cout << "test1 done" << endl;
+}
+void Test2() {
+	assert(Func("basdsad") == 0, 0);
+	cout << "test2 done" << endl;
 }
 
 int main() {
 	Test1();
+	Test2();
 	string  uword;
 	cout << "Write your word: " << endl;
 	cin >> uword;
