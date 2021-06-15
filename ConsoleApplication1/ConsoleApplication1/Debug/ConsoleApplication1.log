@@ -1,3 +1,4 @@
 ﻿  ConsoleApplication1.cpp
-C:\Users\Максим\Desktop\экзамен\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(15,16): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\Максим\Desktop\экзамен\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(13,16): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\Максим\Desktop\экзамен\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(28,2): warning C4002: too many arguments for function-like macro invocation 'assert'
   ConsoleApplication1.vcxproj -> C:\Users\Максим\Desktop\экзамен\ConsoleApplication1\Debug\ConsoleApplication1.exe

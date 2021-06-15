@@ -1,15 +1,13 @@
-﻿
+﻿#include <cassert>
 #include <iostream>
 #include <string>
 using namespace std;
 
-int main() {
+int Func(string word){
 	int counter1 = 0;
 	int counter2 = 0;
-	string  word;
 	int i;
-	cout << "Write your word: " << endl;
-	cin >> word;
+	
 	char Mass[100];
 	strcpy_s(Mass, word.c_str());
 	for (i = 0; i <= word.length() - 1; i++) {
@@ -23,5 +21,19 @@ int main() {
 	}
 	cout << "o: " << counter1 << endl;
 	cout << "oo: " << counter2 << endl;
+	return counter1, counter2;
+}
+
+void Test1() {
+	assert(Func("boom") == 1, 0);
+	cout << "test done" << endl;
+}
+
+int main() {
+	Test1();
+	string  uword;
+	cout << "Write your word: " << endl;
+	cin >> uword;
+	Func(uword);
 
 }
